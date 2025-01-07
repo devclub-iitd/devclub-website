@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Mail, MapPin, Phone, Twitter, Linkedin, Github } from 'lucide-react';
+import { Code2, Mail, MapPin, Phone, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -24,12 +24,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#about" className="hover:text-blue-400 transition">About Us</a></li>
-              <li><a href="#events" className="hover:text-blue-400 transition">Events & Workshops</a></li>
-              <li><a href="#projects" className="hover:text-blue-400 transition">Projects</a></li>
+              <li><a href="events" className="hover:text-blue-400 transition">Events & Workshops</a></li>
+              <li><a href="projects" className="hover:text-blue-400 transition">Projects</a></li>
               <li><a href="#team" className="hover:text-blue-400 transition">Our Team</a></li>
               <li><a href="#resources" className="hover:text-blue-400 transition">Resources</a></li>
-              <li><a href="#join" className="hover:text-blue-400 transition">Join DevClub</a></li>
             </ul>
           </div>
           
@@ -52,6 +50,14 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
             <div className="flex space-x-4">
+              <a 
+                href="https://instagram.com/devclub_iitd" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 transition"
+              >
+                <Instagram className="w-6 h-6" />
+              </a>
               <a 
                 href="https://twitter.com/devclub_iitd" 
                 target="_blank" 

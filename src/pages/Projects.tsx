@@ -87,6 +87,20 @@ const allProjects = [
     image: "public/projects/mess.png",
     tech: ["Node.js", "Express", "MongoDB"],
     github: "https://github.com/devclub-iitd/MessPortal"
+  },
+  {
+    title: "IITD App",
+    description: "A mobile application for IITD students to manage their schedules, connect with peers, and access campus resources.",
+    image: "/public/projects/iitdapp.png",
+    tech: ["React Native", "Firebase"],
+    github: "https://github.com/devclub-iitd/IITDApp"
+  },
+  {
+    title: "Single Sign On",
+    description: "A secure single sign-on system for IITD applications, enabling users to authenticate seamlessly across multiple platforms.",
+    image: "/public/projects/sso.png",
+    tech: ["OAuth2", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/SSO"
   }
 ];
 

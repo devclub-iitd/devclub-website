@@ -187,7 +187,7 @@ export default function Events() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl font-bold mb-6">Upcoming Events</h1>
+          <h1 className="text-5xl font-bold mb-6">Upcoming and Past Events</h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Join us for exciting hackathons, workshops, and learning opportunities. 
             Expand your skills and connect with fellow developers.

@@ -36,16 +36,16 @@ const allProjects = [
   {
     title: "Yearbook",
     description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
-    image: "https://images.unsplash.com/photo-1579547621706-1a9c79d5f0f1?w=800&h=600&fit=crop",
+    image: "public/projects/yearbook.jpg",
     tech: ["React", "Django", "PostgreSQL"],
     github: "https://github.com/devclub-iitd/Yearbook"
   },
   {
     title: "Study Portal",
-    description: "Resource sharing platform for course materials, previous year papers and academic resources",
-    image: "https://images.unsplash.com/photo-1640622669496-f1c47ff366b6?w=800&h=600&fit=crop",
+    description: "Citadel, the previous year papers and texts centre",
+    image: "public/projects/citadel.png",
     tech: ["React", "Express", "MongoDB"],
-    github: "https://github.com/devclub-iitd/study-portal"
+    github: "https://github.com/devclub-iitd/StudyPortal"
   },
   {
     title: "Campus Bot",
@@ -57,7 +57,6 @@ const allProjects = [
   {
     title: "Attendance Manager",
     description: "Automated attendance tracking system using facial recognition for institute events",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=600&fit=crop",
     tech: ["OpenCV", "Python", "TensorFlow"],
     github: "https://github.com/devclub-iitd/AttendanceManager"
   },
@@ -74,6 +73,20 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1516542076529-1ea3854896f9?w=800&h=600&fit=crop",
     tech: ["Angular", "Spring Boot", "MySQL"],
     github: "https://github.com/devclub-iitd/PlacementPortal"
+  },
+  {
+    title: "ClassGrid",
+    description: "Automatic timetable manager",
+    image: "public/projects/classgrid.png",
+    tech: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/devclub-iitd/ClassGrid"
+  },
+  {
+    title: "Mess Portal",
+    description: "The hostel mess management system",
+    image: "public/projects/mess.png",
+    tech: ["Node.js", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/MessPortal"
   }
 ];
 

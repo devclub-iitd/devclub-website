@@ -9,55 +9,57 @@ import Background from './components/Background';
 import Projects from './pages/Projects';
 import Events from './pages/Events';
 import Team from './pages/Team';
+import NotFound from './pages/NotFound';
 
 const projects = [
   {
-    title: "Yearbook Portal",
-    description: "A comprehensive platform preserving memories for 1500+ graduating students annually. Features include profile customization, testimonials, and automated yearbook generation.",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
-    tech: ["React", "Node.js", "MongoDB"]
-  },
-  {
     title: "ClassGrid",
-    description: "Smart scheduling system serving 5.7k+ students with automated timetable generation, conflict resolution, and real-time updates for academic schedules.",
-    image: "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=800&h=600&fit=crop",
-    tech: ["Python", "Django", "PostgreSQL"]
+    description: "Automatic timetable manager",
+    image: "/public/projects/classgrid.png",
+    tech: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/devclub-iitd/ClassGrid"
   },
   {
     title: "Study Portal",
-    description: "Centralized repository of study materials, previous year papers, and resources. Features include smart search, categorization, and contribution system.",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop",
-    tech: ["Vue.js", "Firebase", "Cloud Storage"]
+    description: "Citadel, the previous year papers and texts centre",
+    image: "/public/projects/citadel.png",
+    tech: ["React", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/StudyPortal"
   },
   {
-    title: "Campus Navigation",
-    description: "Interactive map and navigation system for IIT Delhi campus with real-time updates and indoor navigation features.",
-    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop",
-    tech: ["React Native", "GraphQL", "MongoDB"]
+    title: "Yearbook",
+    description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
+    image: "/public/projects/yearbook.jpg",
+    tech: ["React", "Django", "PostgreSQL"],
+    github: "https://github.com/devclub-iitd/Yearbook"
+  },
+  {
+    title: "Mess Portal",
+    description: "The hostel mess management system",
+    image: "/public/projects/mess.png",
+    tech: ["Node.js", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/MessPortal"
   }
 ];
 
-// Remove this stats array as it's no longer needed
-// const stats = [ ... ];
-
 const events = [
   {
-    title: "DevClub Summer of Code",
-    date: "June 2024",
-    description: "5-week intensive coding program for freshers with mentorship from senior developers.",
-    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop"
+    title: "Winter DSoC",
+    date: "January 2024",
+    description: "A revival of DSoC for freshers, this time with a leaderboard.",
+    image: "/events/dsoc.jpg" // Image path updated
   },
   {
-    title: "Hackathon 2024",
-    date: "July 2024",
-    description: "24-hour coding competition with exciting prizes and industry mentorship.",
-    image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800&h=600&fit=crop"
+    title: "AWS Community Day",
+    date: "September 21, 2024",
+    description: "200+ attendees met for AWS Delhi NCR User Group Community Day for fun networking and AWS workshops.",
+    image: "/events/aws.jpg" // Image path updated
   },
   {
-    title: "Tech Workshop Series",
-    date: "August 2024",
-    description: "Learn cutting-edge technologies through hands-on workshops led by industry experts.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop"
+    title: "CRAC CTF",
+    date: "September 2, 2024",
+    description: "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
+    image: "/events/crac-ctf.jpg" // Image path updated
   }
 ];
 
@@ -271,6 +273,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

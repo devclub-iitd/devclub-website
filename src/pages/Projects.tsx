@@ -6,21 +6,75 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const allProjects = [
   {
-    title: "Yearbook Portal",
-    description: "A comprehensive platform preserving memories for 1500+ graduating students annually. Features include profile customization, testimonials, and automated yearbook generation.",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/devclub-iitd/yearbook",
-    demo: "https://yearbook.devclub.in"
+    title: "IITDApp",
+    description: "Official campus super-app for IIT Delhi students with features like mess menu, timetables, event updates and more",
+    image: "https://images.unsplash.com/photo-1610285185033-cb2f2a494c04?w=800&h=600&fit=crop",
+    tech: ["React Native", "Firebase", "Node.js"],
+    github: "https://github.com/devclub-iitd/IITDApp"
   },
   {
-    title: "ClassGrid",
-    description: "Smart scheduling system serving 5.7k+ students with automated timetable generation, conflict resolution, and real-time updates for academic schedules.",
-    image: "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?w=800&h=600&fit=crop",
-    tech: ["Python", "Django", "PostgreSQL"],
-    github: "https://github.com/devclub-iitd/classgrid"
+    title: "SingleSignOn",
+    description: "A unified authentication system that allows users to stay signed in across multiple DevClub services and domains",
+    image: "https://images.unsplash.com/photo-1583511656037-6c69b21d3c71?w=800&h=600&fit=crop",
+    tech: ["JWT", "MongoDB", "Express.js"],
+    github: "https://github.com/devclub-iitd/SingleSignOn"
   },
-  // Add more projects as needed...
+  {
+    title: "Summer of Code",
+    description: "Annual open source program where students contribute to DevClub's projects while learning development",
+    image: "https://images.unsplash.com/photo-1657666937181-21cba4141e10?w=800&h=600&fit=crop",
+    tech: ["Git", "JavaScript", "React"],
+    github: "https://github.com/devclub-iitd/summer-of-code-2024"
+  },
+  {
+    title: "IITDConnect",
+    description: "Backend server for the campus social networking platform that connects IIT Delhi students",
+    image: "https://images.unsplash.com/photo-1637600463388-a6ef5cddaf09?w=800&h=600&fit=crop",
+    tech: ["MongoDB", "Express", "Node.js"],
+    github: "https://github.com/devclub-iitd/IITDConnectServer"
+  },
+  {
+    title: "Yearbook",
+    description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
+    image: "https://images.unsplash.com/photo-1579547621706-1a9c79d5f0f1?w=800&h=600&fit=crop",
+    tech: ["React", "Django", "PostgreSQL"],
+    github: "https://github.com/devclub-iitd/Yearbook"
+  },
+  {
+    title: "Study Portal",
+    description: "Resource sharing platform for course materials, previous year papers and academic resources",
+    image: "https://images.unsplash.com/photo-1640622669496-f1c47ff366b6?w=800&h=600&fit=crop",
+    tech: ["React", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/study-portal"
+  },
+  {
+    title: "Campus Bot",
+    description: "AI-powered chatbot that answers queries about IIT Delhi campus, courses, and facilities",
+    image: "https://images.unsplash.com/photo-1604001201413-097b2fa6e739?w=800&h=600&fit=crop",
+    tech: ["Python", "NLP", "TensorFlow"],
+    github: "https://github.com/devclub-iitd/CampusBot"
+  },
+  {
+    title: "Attendance Manager",
+    description: "Automated attendance tracking system using facial recognition for institute events",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&h=600&fit=crop",
+    tech: ["OpenCV", "Python", "TensorFlow"],
+    github: "https://github.com/devclub-iitd/AttendanceManager"
+  },
+  {
+    title: "Campus Maps",
+    description: "Interactive map of IIT Delhi campus with navigation, points of interest and real-time updates",
+    image: "https://images.unsplash.com/photo-1581090700227-4b8c374e6f41?w=800&h=600&fit=crop",
+    tech: ["React", "Mapbox", "Node.js"],
+    github: "https://github.com/devclub-iitd/CampusMaps"
+  },
+  {
+    title: "Placement Portal",
+    description: "Platform for managing campus placements, company registrations and student applications",
+    image: "https://images.unsplash.com/photo-1516542076529-1ea3854896f9?w=800&h=600&fit=crop",
+    tech: ["Angular", "Spring Boot", "MySQL"],
+    github: "https://github.com/devclub-iitd/PlacementPortal"
+  }
 ];
 
 const categories = ["All", "Web", "Mobile", "ML/AI", "Tools"];

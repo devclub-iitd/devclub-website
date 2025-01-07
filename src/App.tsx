@@ -250,18 +250,18 @@ function App() {
             {/* CTA Section */}
             <section className="py-20 px-4 bg-gradient-to-b via-blue-950/20">
               <div className="max-w-4xl mx-auto text-center backdrop-blur-sm rounded-2xl p-8">
-                <h2 className="text-4xl font-bold mb-6">Ready to Join DevClub?</h2>
-                <p className="text-xl text-gray-400 mb-8">
-                  Be part of IIT Delhi's largest technical club and start your development journey today.
-                </p>
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
-                  <button className="px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition">
-                    Join Now
-                  </button>
-                  <button className="px-8 py-3 rounded-full border border-blue-400 text-blue-400 hover:bg-blue-400/10 transition">
-                    Contact Us
-                  </button>
-                </div>
+              <h2 className="text-4xl font-bold mb-6">Ready to Join DevClub?</h2>
+              <p className="text-xl text-gray-400 mb-8">
+                Be part of IIT Delhi's largest technical club and start your development journey today.
+              </p>
+              <a 
+                href="https://linktr.ee/devclub.iitd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition"
+              >
+                Get Involved
+              </a>
               </div>
             </section>
 

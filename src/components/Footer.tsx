@@ -21,15 +21,14 @@ const Footer = () => {
             </p>
           </div>
           
-          <div>
+            <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="events" className="hover:text-blue-400 transition">Events & Workshops</a></li>
               <li><a href="projects" className="hover:text-blue-400 transition">Projects</a></li>
-              <li><a href="#team" className="hover:text-blue-400 transition">Our Team</a></li>
-              <li><a href="#resources" className="hover:text-blue-400 transition">Resources</a></li>
+              <li><a href="/team" className="hover:text-blue-400 transition">Our Team</a></li>
             </ul>
-          </div>
+            </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>

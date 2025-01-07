@@ -82,9 +82,9 @@ export default function Team() {
   const teamMembers = [
     // Faculty Advisor
     {
-      name: "Dr. John Doe",
-      position: "Faculty Advisor",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      name: "Prapanch Nair",
+      position: "Faculty In-Charge",
+      image: "/team_photos/prapanchnairfacultyic.jpg",
       socials: {
         email: "advisor@devclub.in",
         linkedin: "https://linkedin.com",

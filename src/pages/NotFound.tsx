@@ -26,7 +26,7 @@ export default function NotFound() {
           </span>
           4
         </h1>
-        <p className="text-gray-400 text-xl">Oops! The page you’re looking for doesn’t exist.</p>
+        <p className="text-gray-400 text-xl">You're lost dear traveler. Don't worry it happens to the best of us.</p>
       </section>
       
       <Footer />

@@ -35,8 +35,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <a href="mailto:devclub.iitd@gmail.com" className="hover:text-blue-400 transition">
-                  devclub.iitd@gmail.com
+                <a href="mailto:support@devclub.in" className="hover:text-blue-400 transition">
+                  support@devclub.in
                 </a>
               </li>
               <li className="flex items-center">

@@ -33,10 +33,9 @@ const Navbar = () => {
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-300 hover:text-blue-400 transition">Home</Link>
-            <a href="#about" className="text-gray-300 hover:text-blue-400 transition">About</a>
             <Link to="/events" className="text-gray-300 hover:text-blue-400 transition">Events</Link>
             <Link to="/projects" className="text-gray-300 hover:text-blue-400 transition">Projects</Link>
-            <a href="#team" className="text-gray-300 hover:text-blue-400 transition">Team</a>
+            <Link to="/team" className="text-gray-300 hover:text-blue-400 transition">Team</Link>
             <div className="h-6 w-px bg-blue-500/30"></div>
             <a 
               href="https://github.com/devclub-iitd" 
@@ -55,10 +54,9 @@ const Navbar = () => {
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-md">
           <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Home</Link>
-          <a href="#about" className="block px-3 py-2 text-gray-300 hover:text-blue-400">About</a>
           <Link to="/events" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Events</Link>
           <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Projects</Link>
-          <a href="#team" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Team</a>
+          <Link to="/team" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Team</Link>
           <a 
             href="https://github.com/devclub-iitd" 
             target="_blank" 

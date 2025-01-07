@@ -8,6 +8,7 @@ import './components/supercoolbutton.css';  // Add this import at the top with o
 import Background from './components/Background';
 import Projects from './pages/Projects';
 import Events from './pages/Events';
+import Team from './pages/Team';
 
 const projects = [
   {
@@ -269,6 +270,7 @@ function App() {
         } />
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </Router>
   );

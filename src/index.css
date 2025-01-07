@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 2s;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.7);
+}
+
+/* Instagram feed styling */
+.instagram-embed {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.instagram-header {
+  background: linear-gradient(90deg, #4f46e5, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section backgrounds */
+section {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  isolation: isolate;
+}
+
+section + section {
+  margin-top: -1px;
+}
+
+.from-blue-950\/20 {
+  position: relative;
+}
+
+.from-blue-950\/20::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(23, 37, 84, 0.2), transparent);
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.via-blue-950\/20::before {
+  background: linear-gradient(to bottom, transparent, rgba(23, 37, 84, 0.2), transparent);
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Mail, MapPin, Phone, Twitter, Linkedin, Github, Instagram } from 'lucide-react';
+import { Code2, Mail, MapPin, Phone, Twitter, Linkedin, Github, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,14 +9,14 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img 
-                src="./src/LogoSVG.svg" 
+                src="/LogoDarkMode.png" 
                 alt="DevClub Logo" 
-                className="w-8 h-8"
+                className="h-8 w-auto"
               />
               <span className="ml-2 text-xl font-bold text-white">DevClub IITD</span>
             </div>
             <p className="text-sm">
-              Building a culture of software development and innovation at IIT Delhi since 2014.
+              Building a culture of software development and innovation at IIT Delhi since 2017.
               Join us in our mission to foster technical excellence.
             </p>
           </div>
@@ -35,8 +35,8 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <a href="mailto:support@devclub.in" className="hover:text-blue-400 transition">
-                  support@devclub.in
+                <a href="mailto:devclub@iitd.ac.in" className="hover:text-blue-400 transition">
+                devclub@iitd.ac.in
                 </a>
               </li>
               <li className="flex items-center">
@@ -49,6 +49,14 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Follow Us</h3>
             <div className="flex space-x-4">
+            <a 
+                href="https://www.youtube.com/@DevClubIITD" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 transition"
+              >
+                <Youtube className="w-6 h-6" />
+              </a>
               <a 
                 href="https://instagram.com/devclub_iitd" 
                 target="_blank" 
@@ -88,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-blue-500/20 text-center text-sm">
+        <div className="mt-8 pt-8 border-t borde</svg>r-blue-500/20 text-center text-sm">
           <p>© {new Date().getFullYear()} DevClub IITD. All rights reserved.</p>
           <p className="mt-2 text-gray-400">
             Made with ❤️ by DevClub IITD

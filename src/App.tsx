@@ -10,7 +10,7 @@ import Projects from './pages/Projects';
 import Events from './pages/Events';
 import Team from './pages/Team';
 import NotFound from './pages/NotFound';
-import Keshav from './pages/Keshav'; // Import the new Keshav page
+
 
 const projects = [
   {
@@ -302,7 +302,6 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/keshav" element={<Keshav />} /> {/* Add this route */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

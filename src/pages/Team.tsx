@@ -241,7 +241,7 @@ export default function Team() {
     },
     {
       name: "Manogya Singh",
-      position: "Executive (The best one)",
+      position: "Executive",
       image: "/team_photos/Manogya Singh _ Executive.jpg",
       socials: {
         github: "https://github.com/manogyasingh",

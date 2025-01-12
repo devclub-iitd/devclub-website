@@ -8,7 +8,7 @@ const allProjects = [
   {
     title: "IITDConnect",
     description: "Backend server for the campus social networking platform that connects IIT Delhi students",
-    image: "public/projects/connect.png",
+    image: "/projects/connect.png",
     tech: ["MongoDB", "Express", "Node.js"],
     github: "https://github.com/devclub-iitd/IITDConnectServer",
     visit: "https://campus.devclub.in/home"
@@ -16,7 +16,7 @@ const allProjects = [
   {
     title: "Yearbook",
     description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
-    image: "public/projects/yearbook.jpg",
+    image: "/projects/yearbook.jpg",
     tech: ["React", "Django", "PostgreSQL"],
     github: "https://github.com/devclub-iitd/Yearbook",
     visit: "https://yearbook.devclub.in/"
@@ -24,7 +24,7 @@ const allProjects = [
   {
     title: "Study Portal",
     description: "Citadel, the previous year papers and texts centre",
-    image: "public/projects/citadel.png",
+    image: "/projects/citadel.png",
     tech: ["React", "Express", "MongoDB"],
     github: "https://github.com/devclub-iitd/StudyPortal",
     visit: "https://study.devclub.in/books/"
@@ -32,23 +32,15 @@ const allProjects = [
   {
     title: "Campus Maps",
     description: "Interactive map of IIT Delhi campus with navigation, points of interest and real-time updates",
-    image: "public/projects/campusmap.png",
+    image: "/projects/campusmap.png",
     tech: ["React", "Mapbox", "Node.js"],
     github: "https://github.com/devclub-iitd/CampusMaps",
     visit: "https://campus.devclub.in/map"
   },
   {
-    title: "Placement Portal",
-    description: "Platform for managing campus placements, company registrations and student applications",
-    image: "public/projects/placementportal.png",
-    tech: ["Angular", "Spring Boot", "MySQL"],
-    github: "https://github.com/devclub-iitd/PlacementPortal",
-    visit: "https://ocs.iitd.ac.in/ocs/index.php"
-  },
-  {
     title: "ClassGrid",
     description: "Automatic timetable manager",
-    image: "public/projects/classgrid.png",
+    image: "/projects/classgrid.png",
     tech: ["React", "Node.js", "MongoDB"],
     github: "https://github.com/devclub-iitd/ClassGrid",
     demo: "https://classgrid.devclub.in/"
@@ -56,21 +48,21 @@ const allProjects = [
   {
     title: "Mess Portal",
     description: "The hostel mess management system",
-    image: "public/projects/mess.png",
+    image: "/projects/mess.png",
     tech: ["Node.js", "Express", "MongoDB"],
     github: "https://github.com/devclub-iitd/MessPortal"
   },
   {
     title: "IITD App",
     description: "A mobile application for IITD students to manage their schedules, connect with peers, and access campus resources.",
-    image: "/public/projects/iitdapp.png",
+    image: "/projects/iitdapp.png",
     tech: ["React Native", "Firebase"],
     github: "https://github.com/devclub-iitd/IITDApp"
   },
   {
     title: "Single Sign On",
     description: "A secure single sign-on system for IITD applications, enabling users to authenticate seamlessly across multiple platforms.",
-    image: "/public/projects/sso.png",
+    image: "/projects/sso.png",
     tech: ["OAuth2", "Express", "MongoDB"],
     github: "https://github.com/devclub-iitd/SSO",
     visit: "https://auth.devclub.in/"

@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <div className="flex justify-center mb-8">
           <img 
-            src="./src/components/LogoDarkMode.png" 
+            src="/LogoDarkMode.png" 
             alt="DevClub Logo" 
             className="h-32 w-auto animate-float"
           />

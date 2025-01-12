@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import { Code, Cpu, Globe, Users, Trophy, Rocket, Brain, Terminal, Calendar, BookOpen } from 'lucide-react';
+import { Code, Cpu, Globe, Users, Trophy, Rocket, Brain, Terminal, Calendar, BookOpen, Github, ExternalLink } from 'lucide-react';
 import './components/supercoolbutton.css';  // Add this import at the top with other imports
 import Background from './components/Background';
 import Projects from './pages/Projects';
@@ -14,32 +14,36 @@ import Keshav from './pages/Keshav'; // Import the new Keshav page
 
 const projects = [
   {
-    title: "ClassGrid",
-    description: "Automatic timetable manager",
-    image: "/public/projects/classgrid.png",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/devclub-iitd/ClassGrid"
-  },
-  {
-    title: "Study Portal",
-    description: "Citadel, the previous year papers and texts centre",
-    image: "/public/projects/citadel.png",
-    tech: ["React", "Express", "MongoDB"],
-    github: "https://github.com/devclub-iitd/StudyPortal"
+    title: "IITDConnect",
+    description: "Backend server for the campus social networking platform that connects IIT Delhi students",
+    image: "/projects/connect.png",
+    tech: ["MongoDB", "Express", "Node.js"],
+    github: "https://github.com/devclub-iitd/IITDConnectServer",
+    visit: "https://campus.devclub.in/home"
   },
   {
     title: "Yearbook",
     description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
-    image: "/public/projects/yearbook.jpg",
+    image: "/projects/yearbook.jpg",
     tech: ["React", "Django", "PostgreSQL"],
-    github: "https://github.com/devclub-iitd/Yearbook"
+    github: "https://github.com/devclub-iitd/Yearbook",
+    visit: "https://yearbook.devclub.in/"
   },
   {
-    title: "Mess Portal",
-    description: "The hostel mess management system",
-    image: "/public/projects/mess.png",
-    tech: ["Node.js", "Express", "MongoDB"],
-    github: "https://github.com/devclub-iitd/MessPortal"
+    title: "ClassGrid",
+    description: "Automatic timetable manager",
+    image: "/projects/classgrid.png",
+    tech: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/devclub-iitd/ClassGrid",
+    visit: "https://classgrid.devclub.in/"
+  },
+  {
+    title: "Study Portal",
+    description: "Citadel, the previous year papers and texts centre",
+    image: "/projects/citadel.png",
+    tech: ["React", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/StudyPortal",
+    visit: "https://study.devclub.in/books/"
   }
 ];
 
@@ -163,6 +167,30 @@ function App() {
                               {tech}
                             </span>
                           ))}
+                        </div>
+                        <div className="flex gap-3">
+                          {project.github && (
+                            <a 
+                              href={project.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition"
+                            >
+                              <Github className="w-4 h-4" />
+                              Code
+                            </a>
+                          )}
+                          {project.visit && (
+                            <a 
+                              href={project.visit}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex items-center gap-2 text-gray-400 hover:text-blue-400 transition"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Visit
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>

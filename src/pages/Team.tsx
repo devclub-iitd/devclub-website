@@ -101,6 +101,16 @@ export default function Team() {
         linkedin: "https://linkedin.com"
       }
     },
+    // Advisor
+    {
+      name: "Shashank Mahawar",
+      position: "Advisor",
+      image: "/team_photos/Shashank Mahawar _ Advisor.jpeg",
+      socials: {
+        github: "https://github.com/shashmahawar",
+        linkedin: "https://www.linkedin.com/in/shashmahawar/"
+      },
+    },
     // Core Team Members
     {
       name: "Basil Labib",
@@ -120,14 +130,22 @@ export default function Team() {
         linkedin: "https://linkedin.com"
       }
     },
+    {
+      name: "Arush Bansal",
+      position: "Core Team Member",
+      image: "/team_photos/Arush Bansal.jpg",
+      socials: {
+        // Add social links if any
+      },
+    },
     // Coordinators
     {
       name: "Dinu Goyal",
       position: "Coordinator",
       image: "/team_photos/Dinu Goyal _ Coordinator.webp",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/Uniquedex100",
+        linkedin: "https://www.linkedin.com/in/dinu-goyal-365574252"
       }
     },
     {
@@ -135,8 +153,8 @@ export default function Team() {
       position: "Coordinator",
       image: "/team_photos/Jahnabi Roy _ Coordinator.jpg",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/jahnabiroy",
+        linkedin: "https://in.linkedin.com/in/jahnabi-roy-828529275"
       }
     },
     {
@@ -144,8 +162,8 @@ export default function Team() {
       position: "Coordinator",
       image: "/team_photos/Ritul Kumawat _ Coordinator.png",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/RitulKumawat/",
+        linkedin: "https://www.linkedin.com/in/ritulkumawat/"
       }
     },
     {
@@ -190,8 +208,8 @@ export default function Team() {
       position: "Executive",
       image: "/team_photos/Aryan Choudhary _ Executive_.jpg",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/Z3R0C1PH3R",
+        linkedin: "https://www.linkedin.com/in/~aryan-choudhary/"
       }
     },
     {
@@ -226,8 +244,8 @@ export default function Team() {
       position: "Executive (The best one)",
       image: "/team_photos/Manogya Singh _ Executive.jpg",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/manogyasingh",
+        linkedin: "https://www.linkedin.com/in/manogya-singh-suryansh-196305217/"
       }
     },
     {
@@ -271,8 +289,8 @@ export default function Team() {
       position: "Executive",
       image: "/team_photos/Shoan Raj - Executive.jpg",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/AddledAnorak",
+        linkedin: "https://www.linkedin.com/in/shoan-raj/"
       }
     },
     {
@@ -292,6 +310,14 @@ export default function Team() {
         github: "https://github.com",
         linkedin: "https://linkedin.com"
       }
+    },
+    {
+      name: "Harsh Parihar",
+      position: "Executive",
+      image: "/team_photos/Harsh Parihar.jpg",
+      socials: {
+        // Add social links if any
+      },
     }
   ];
 

@@ -12,9 +12,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="./src/LogoSVG.svg" 
-                alt="DevClub Logo" 
-                className="w-8 h-8"
+              src="./src/LogoSVG.svg" 
+              alt="DevClub Logo" 
+              className="h-8 w-auto"
               />
               <span className="ml-2 text-xl font-bold text-white">DevClub IITD</span>
             </Link>

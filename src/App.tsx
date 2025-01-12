@@ -77,7 +77,7 @@ function App() {
             {/* Events Preview - Moved up */}
             <section className="py-20 px-4">
               <div className="max-w-7xl mx-auto">
-                <h2 className="text-4xl font-bold text-center mb-16">Upcoming Events</h2>
+                <h2 className="text-4xl font-bold text-center mb-16">Events @ DevClub</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   {events.map((event, i) => (
                     <div key={i} className="group relative overflow-hidden rounded-xl">

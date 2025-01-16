@@ -122,6 +122,14 @@ export default function Team() {
       }
     },
     {
+      name: "Sunaina Das",
+      position: "Core Team Member",
+      image: "/team_photos/sunaina.jpg",
+      socials: {
+        // Add social links if available
+      }
+    },
+    {
       name: "Kavya Chopra",
       position: "Core Team Member",
       image: "/team_photos/Kavya Chopra _ CTM.jpeg",
@@ -146,6 +154,14 @@ export default function Team() {
       socials: {
         github: "https://github.com/Uniquedex100",
         linkedin: "https://www.linkedin.com/in/dinu-goyal-365574252"
+      }
+    },
+    {
+      name: "Dhruv Joshi",
+      position: "Coordinator",
+      image: "/team_photos/dhruv joshi.jpg",
+      socials: {
+        // Add social links if available
       }
     },
     {

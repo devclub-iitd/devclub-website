@@ -6,6 +6,30 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const allProjects = [
   {
+    title: "Mercury",
+    description: "The one messenger for all IITD newsletters to distribute announcements effectively",
+    image: "/projects/mercury_logo.png",
+    tech: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/devclub-iitd/mercury",
+    visit: "https://mercury.devclub.in"
+  },
+  {
+    title: "SportsHub",
+    description: "The one place for everything by BSA. Manage NSO and view live GC standings",
+    image: "/projects/sportshub.jpg",
+    tech: ["React", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/sportshub",
+    visit: "https://sports.iitd.ac.in"
+  },
+  {
+    title: "OAuth",
+    description: "The single sign on by DevClub that enables developers to use IITD internal mail based auth on any site",
+    image: "/projects/oauth.png",
+    tech: ["OAuth2", "Express", "MongoDB"],
+    github: "https://github.com/devclub-iitd/oauth",
+    visit: "https://oauth.devclub.in"
+  },
+  {
     title: "IITDConnect",
     description: "Backend server for the campus social networking platform that connects IIT Delhi students",
     image: "/projects/connect.png",

@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom'; // Add this import
-import { Code, Terminal, Cpu, ArrowRight } from 'lucide-react';
+import { Code, Terminal, Cpu, } from 'lucide-react';
 import '../components/supercoolbutton.css';
 
 const Hero = () => {
@@ -30,7 +29,7 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
             <a href="https://linktr.ee/devclub.iitd" target="_blank" rel="noopener noreferrer" className="shiny-cta !px-8 !py-3">
-            <span>Join Community</span>
+            <span>Communities</span>
             </a>
           <Link 
             to="/projects" // Change <button> to <Link> and add the 'to' prop

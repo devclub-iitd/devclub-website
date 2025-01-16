@@ -10,6 +10,7 @@ import Projects from './pages/Projects';
 import Events from './pages/Events';
 import Team from './pages/Team';
 import NotFound from './pages/NotFound';
+import PastOCs from './pages/PastOCs';
 
 
 const projects = [
@@ -302,6 +303,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/past-ocs" element={<PastOCs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

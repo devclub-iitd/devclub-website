@@ -50,22 +50,22 @@ const projects = [
 
 const events = [
   {
-    title: "Winter DSoC",
-    date: "January 2024",
-    description: "A revival of DSoC for freshers, this time with a leaderboard.",
-    image: "/events/dsoc.jpg" // Image path updated
+    title: "Hack4Purpose",
+    date: "March 29, 2024",
+    description: "Focused on solving real world problems in a 24-hour hackathon format.",
+    image: "/events/h4p.png"
   },
   {
-    title: "AWS Community Day",
-    date: "September 21, 2024",
-    description: "200+ attendees met for AWS Delhi NCR User Group Community Day for fun networking and AWS workshops.",
-    image: "/events/aws.jpg" // Image path updated
+    title: "Soonami Venturathon",
+    date: "March 11, 2024",
+    description: "A 10 day startup launchpad to help students turn their ideas into viable businesses.",
+    image: "/events/soonami.png"
   },
   {
-    title: "CRAC CTF",
-    date: "September 2, 2024",
-    description: "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
-    image: "/events/crac-ctf.jpg" // Image path updated
+    title: "Women in Tech Lecture Series",
+    date: "January 18, 2025",
+    description: "A hands on series by women in tech in collaboration with AWS.",
+    image: "/events/womenintech.png"
   }
 ];
 

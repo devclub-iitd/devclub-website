@@ -6,6 +6,56 @@ import { Calendar, Users, MapPin, ExternalLink } from 'lucide-react';
 
 const allEvents = [
   {
+    title: "Hack4Purpose",
+    date: "March 29, 2024",
+    description: "Focused on solving real world problems in a 24-hour hackathon format.",
+    image: "/events/h4p.png",
+    location: "IIT Delhi",
+    participants: "200+",
+    registrationLink: "https://devclub.in/hack4purpose",
+    category: "Hackathon"
+  },
+  {
+    title: "LLMOps Masterclass",
+    date: "January 19, 2025",
+    description: "A workshop on Retrieval Augmented Generation and building production-ready LLM applications.",
+    image: "/events/llmops.png",
+    location: "LHC, IIT Delhi",
+    participants: "100+",
+    registrationLink: "https://devclub.in/llmops",
+    category: "Workshop"
+  },
+  {
+    title: "Smart India Hackathon",
+    date: "Coming Soon",
+    description: "DevClub is the SPOC for SIH and organises the first round for candidates from the institute.",
+    image: "/events/sih.png",
+    location: "IIT Delhi",
+    participants: "300+",
+    registrationLink: "https://devclub.in/sih",
+    category: "Hackathon"
+  },
+  {
+    title: "Soonami Venturathon",
+    date: "March 11, 2024",
+    description: "A 10 day startup launchpad to help students turn their ideas into viable businesses.",
+    image: "/events/soonami.png",
+    location: "IIT Delhi",
+    participants: "150+",
+    registrationLink: "https://devclub.in/soonami",
+    category: "Program"
+  },
+  {
+    title: "Women in Tech Lecture Series",
+    date: "January 18, 2025",
+    description: "A hands on series by women in tech in collaboration with AWS.",
+    image: "/events/womenintech.png",
+    location: "IIT Delhi",
+    participants: "100+",
+    registrationLink: "https://devclub.in/womenintech",
+    category: "Workshop"
+  },
+  {
     title: "DevClub Summer of Code",
     date: "June 2024",
     description: "5-week intensive coding program for freshers with mentorship from senior developers. Learn modern web development, collaborate on real projects, and build your portfolio.",
@@ -31,7 +81,7 @@ const allEvents = [
     description: "Session hosted by DevClub IIT Delhi in collaboration with Pathway and Athina AI. advanced strategies for building and managing production-ready LLM stacks, focusing on cutting-edge Retrieval-Augmented Generation (RAG) pipelines.",
     image: "/events/llm.jpg", // Updated image path
     location: "LHC, IIT Delhi",
-    participants: "100+",
+    participants: "200+",
     registrationLink: "https://workshops.devclub.in",
     category: "Workshop"
   },
@@ -71,7 +121,7 @@ const allEvents = [
     description: "Discussions on building stuff at hostel cluster level.",
     image: "/events/dev-discussion.jpg",
     location: "Hostel Clusters, IIT Delhi",
-    participants: "N/A",
+    participants: "300+",
     registrationLink: "https://devclub.in/dev-discussion-series",
     category: "Talk"
   },
@@ -81,7 +131,7 @@ const allEvents = [
     description: "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
     image: "/events/crac-ctf.jpg",
     location: "IIT Delhi",
-    participants: "150+",
+    participants: "200+",
     registrationLink: "https://devclub.in/crac-ctf",
     category: "Workshop"
   },
@@ -91,7 +141,7 @@ const allEvents = [
     description: "Internship preparation series in collaboration with ANCC, MathSoc and OCS.",
     image: "/events/intern.jpg",
     location: "IIT Delhi",
-    participants: "300+",
+    participants: "1000+",
     registrationLink: "https://devclub.in/internship-preparation",
     category: "Workshop"
   }

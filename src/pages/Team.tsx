@@ -197,8 +197,8 @@ export default function Team() {
       position: "Executive",
       image: "/team_photos/Akshit Arora _ Executive .JPG",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/AkshitEP",
+        linkedin: "https://in.linkedin.com/in/akshit-arora-748941285"
       }
     },
     {
@@ -247,6 +247,15 @@ export default function Team() {
       }
     },
     {
+      name: "Harsh Parihar",
+      position: "Executive",
+      image: "/team_photos/Harsh Parihar.jpg",
+      socials: {
+        github : "https://github.com/techrival007",
+        linkedin: "https://www.linkedin.com/in/harsh-parihar-7777b6219"
+      },
+    },
+    {
       name: "Keshav Bansal",
       position: "Executive",
       image: "/team_photos/Keshav Bansal । Executive.jpg",
@@ -287,8 +296,8 @@ export default function Team() {
       position: "Executive",
       image: "/team_photos/Ranjan Kumar _ Executive.jpg",
       socials: {
-        github: "https://github.com",
-        linkedin: "https://linkedin.com"
+        github: "https://github.com/RanjanKumar93",
+        linkedin: "https://www.linkedin.com/in/ranjan-kumar-37a556296/"
       }
     },
     {
@@ -327,14 +336,6 @@ export default function Team() {
         linkedin: "https://linkedin.com"
       }
     },
-    {
-      name: "Harsh Parihar",
-      position: "Executive",
-      image: "/team_photos/Harsh Parihar.jpg",
-      socials: {
-        // Add social links if any
-      },
-    }
   ];
 
   return (

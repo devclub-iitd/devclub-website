@@ -5,44 +5,12 @@ import { Linkedin } from 'lucide-react';
 
 const pastOCs = [
   {
-    name: "Aman Agrawal",
-    role: "Founder of DevClub",
-    year: "2018",
-    batch: "(2015-2019)",
-    linkedin: "https://www.linkedin.com/in/aagrxyz/",
-    image: "/pastocs/aman.jpg"
-  },
-  {
-    name: "Shashwat Shivam",
+    name: "Ashish Arora",
     role: "Overall Coordinator",
-    year: "2019",
-    batch: "(2016-2020)",
-    linkedin: "https://www.linkedin.com/in/ankurshaswat/",
-    image: "/pastocs/shashwat.jpg"
-  },
-  {
-    name: "Shourya Aggarwal",
-    role: "Overall Coordinator",
-    year: "2020",
-    batch: "(2017-2021)",
-    linkedin: "https://www.linkedin.com/in/shourya-aggarwal-337484163/",
-    image: "/pastocs/shourya.jpg"
-  },
-  {
-    name: "Arpit Saxena",
-    role: "Overall Coordinator",
-    year: "2021",
-    batch: "(2018-2022)",
-    linkedin: "https://www.linkedin.com/in/saxena-arpit/",
-    image: "/pastocs/arpit.jpg"
-  },
-  {
-    name: "Deepanshu Rohilla",
-    role: "Overall Coordinator",
-    year: "2022",
-    batch: "(2019-2024)",
-    linkedin: "https://www.linkedin.com/in/deepanshu-rohilla/",
-    image: "/pastocs/deepanshu.jpg"
+    year: "2024",
+    batch: "(2021-2025)",
+    linkedin: "https://www.linkedin.com/in/ashish-ar/",
+    image: "/pastocs/ashish.jpg"
   },
   {
     name: "Aditya Singh",
@@ -53,12 +21,44 @@ const pastOCs = [
     image: "/pastocs/aditya.jpg"
   },
   {
-    name: "Ashish Arora",
+    name: "Deepanshu Rohilla",
     role: "Overall Coordinator",
-    year: "2024",
-    batch: "(2021-2025)",
-    linkedin: "https://www.linkedin.com/in/ashish-ar/",
-    image: "/pastocs/ashish.jpg"
+    year: "2022",
+    batch: "(2019-2024)",
+    linkedin: "https://www.linkedin.com/in/deepanshu-rohilla/",
+    image: "/pastocs/deepanshu.jpg"
+  },
+  {
+    name: "Arpit Saxena",
+    role: "Overall Coordinator",
+    year: "2021",
+    batch: "(2018-2022)",
+    linkedin: "https://www.linkedin.com/in/saxena-arpit/",
+    image: "/pastocs/arpit.jpg"
+  },
+  {
+    name: "Shourya Aggarwal",
+    role: "Overall Coordinator",
+    year: "2020",
+    batch: "(2017-2021)",
+    linkedin: "https://www.linkedin.com/in/shourya-aggarwal-337484163/",
+    image: "/pastocs/shourya.jpg"
+  },
+  {
+    name: "Shashwat Shivam",
+    role: "Overall Coordinator",
+    year: "2019",
+    batch: "(2016-2020)",
+    linkedin: "https://www.linkedin.com/in/ankurshaswat/",
+    image: "/pastocs/shashwat.jpg"
+  },
+  {
+    name: "Aman Agrawal",
+    role: "Founder of DevClub",
+    year: "2018",
+    batch: "(2015-2019)",
+    linkedin: "https://www.linkedin.com/in/aagrxyz/",
+    image: "/pastocs/aman.jpg"
   }
 ];
 

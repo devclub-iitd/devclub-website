@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import { Code, Cpu, Globe, Users, Trophy, Rocket, Brain, Terminal, Calendar, BookOpen, Github, ExternalLink } from 'lucide-react';
+import { Code, Users, Rocket, Brain, Github, ExternalLink } from 'lucide-react';
 import './components/supercoolbutton.css';  // Add this import at the top with other imports
 import Background from './components/Background';
 import Projects from './pages/Projects';
@@ -47,26 +47,11 @@ const projects = [
   }
 ];
 
-const events = [
-  {
-    title: "Winter DSoC",
-    date: "January 2024",
-    description: "A revival of DSoC for freshers, this time with a leaderboard.",
-    image: "/events/dsoc.jpg" // Image path updated
-  },
-  {
-    title: "AWS Community Day",
-    date: "September 21, 2024",
-    description: "200+ attendees met for AWS Delhi NCR User Group Community Day for fun networking and AWS workshops.",
-    image: "/events/aws.jpg" // Image path updated
-  },
-  {
-    title: "CRAC CTF",
-    date: "September 2, 2024",
-    description: "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
-    image: "/events/crac-ctf.jpg" // Image path updated
-  }
-];
+import eventsData from './lists/events.json';
+
+const events = [...eventsData]
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 6);
 
 function App() {
   return (

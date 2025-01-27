@@ -1,8 +1,8 @@
 [
     {
         "title": "DevClub Summer of Code",
-        "date": "June 2024",
-        "description": "5-week intensive coding program for freshers with mentorship from senior developers. Learn modern web development, collaborate on real projects, and build your portfolio.",
+        "date": "June 1, 2024",
+        "description": "5-week coding program for freshers, with mentorship, real projects, and portfolio building.",
         "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop",
         "location": "Virtual & IIT Delhi",
         "participants": "150+",
@@ -11,8 +11,8 @@
     },
     {
         "title": "Winter DSoC",
-        "date": "January 2024",
-        "description": "A revival of DSoC for freshers, this time with a leaderboard.",
+        "date": "January 1, 2024",
+        "description": "A freshers' coding revival with a leaderboard for motivation.",
         "image": "/events/dsoc.jpg",
         "location": "IIT Delhi",
         "participants": "300+",
@@ -21,8 +21,8 @@
     },
     {
         "title": "Pathway LLM bootcamp",
-        "date": "August 2024",
-        "description": "Session hosted by DevClub IIT Delhi in collaboration with Pathway and Athina AI. Advanced strategies for building and managing production-ready LLM stacks, focusing on cutting-edge Retrieval-Augmented Generation (RAG) pipelines.",
+        "date": "August 1, 2024",
+        "description": "Advanced LLM strategies, building RAG pipelines, and managing production-ready AI stacks.",
         "image": "/events/llm.jpg",
         "location": "LHC, IIT Delhi",
         "participants": "100+",
@@ -32,7 +32,7 @@
     {
         "title": "AWS Community Day",
         "date": "September 21, 2024",
-        "description": "200+ attendees met for AWS Delhi NCR User Group Community Day for fun networking and AWS workshops.",
+        "description": "Fun networking and AWS workshops with over 200 attendees at IIT Delhi.",
         "image": "/events/aws.jpg",
         "location": "IIT Delhi",
         "participants": "200+",
@@ -41,8 +41,8 @@
     },
     {
         "title": "Hostel Level Workshops",
-        "date": "February 2024",
-        "description": "13 workshops, one for each hostel for a first introduction to development.",
+        "date": "February 1, 2024",
+        "description": "Thirteen introductory development workshops, one in each hostel across IIT Delhi.",
         "image": "/events/ws.jpg",
         "location": "All IIT Delhi Hostels",
         "participants": "500+",
@@ -52,7 +52,7 @@
     {
         "title": "Speedathon",
         "date": "March 31, 2024",
-        "description": "A one of a kind superfast hackathon where you race against time to build as fast as possible using any and all available tools.",
+        "description": "A fast-paced hackathon racing to build solutions using any available tools.",
         "image": "/events/speedathon.jpg",
         "location": "IIT Delhi",
         "participants": "200+",
@@ -61,8 +61,8 @@
     },
     {
         "title": "Dev Discussion Series",
-        "date": "April 2024",
-        "description": "Discussions on building stuff at hostel cluster level.",
+        "date": "April 1, 2024",
+        "description": "Group discussions on building projects at hostel cluster level in IIT Delhi.",
         "image": "/events/dev-discussion.jpg",
         "location": "Hostel Clusters, IIT Delhi",
         "participants": "N/A",
@@ -72,7 +72,7 @@
     {
         "title": "CRAC CTF",
         "date": "September 2, 2024",
-        "description": "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
+        "description": "Hands-on security workshop on penetration testing, OWASP Top 10, followed by a hackathon.",
         "image": "/events/crac-ctf.jpg",
         "location": "IIT Delhi",
         "participants": "150+",
@@ -81,8 +81,8 @@
     },
     {
         "title": "Internship Preparation Series",
-        "date": "May 2024",
-        "description": "Internship preparation series in collaboration with ANCC, MathSoc and OCS.",
+        "date": "May 1, 2024",
+        "description": "Collaborative program with ANCC, MathSoc, and OCS for internship readiness.",
         "image": "/events/intern.jpg",
         "location": "IIT Delhi",
         "participants": "300+",

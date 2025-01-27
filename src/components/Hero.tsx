@@ -28,9 +28,9 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8">
-            <a href="https://linktr.ee/devclub.iitd" target="_blank" rel="noopener noreferrer" className="shiny-cta !px-8 !py-3">
-            <span>Communities</span>
-            </a>
+            <Link to="/communities" className="shiny-cta !px-8 !py-3">
+              <span>Communities</span>
+            </Link>
           <Link 
             to="/projects" // Change <button> to <Link> and add the 'to' prop
             className="px-8 py-3 rounded-full border border-blue-400 text-blue-400 hover:bg-blue-400/10 transition"

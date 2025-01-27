@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
-import { Code, Cpu, Globe, Users, Trophy, Rocket, Brain, Terminal, Calendar, BookOpen, Github, ExternalLink } from 'lucide-react';
+import { Code, Cpu, Globe, Users, Trophy, Rocket, Brain, Terminal, Calendar, BookOpen, Github, ExternalLink, Youtube, Instagram } from 'lucide-react';
 import './components/supercoolbutton.css';  // Add this import at the top with other imports
 import Background from './components/Background';
 import Projects from './pages/Projects';
@@ -11,6 +11,7 @@ import Events from './pages/Events';
 import Team from './pages/Team';
 import NotFound from './pages/NotFound';
 import PastOCs from './pages/PastOCs';
+import Communities from './pages/Communities';
 
 
 const projects = [
@@ -222,58 +223,113 @@ function App() {
               </div>
             </section>
 
-            {/* Instagram Feed Section */}
+            {/* YouTube & Social Media Section */}
             <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
-              <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                  <h2 className="text-4xl font-bold mb-4">Follow Us on Instagram</h2>
-                  <p className="text-xl text-gray-400">Stay updated with our latest events and projects</p>
-                </div>
-                
-                <div className="instagram-embed rounded-2xl p-8 max-w-3xl mx-auto">
-                  <div className="flex items-center gap-4 mb-6">
-                    <img
-                      src="https://github.com/devclub-iitd.png"
-                      alt="DevClub IITD"
-                      className="w-16 h-16 rounded-full border-2 border-blue-500"
-                    />
-                    <div>
-                      <h3 className="instagram-header text-2xl font-bold mb-1">DevClub IITD</h3>
-                      <a 
-                        href="https://www.instagram.com/devclub_iitd/"
+              <div className="max-w-4xl mx-auto space-y-20">
+                {/* YouTube Section */}
+                <div>
+                  <div className="text-center mb-8">
+                    <h2 className="text-4xl font-bold mb-4">Watch Our Content</h2>
+                    <p className="text-xl text-gray-400">Subscribe for tutorials and tech talks</p>
+                  </div>
+                  
+                  <div className="rounded-2xl p-6 bg-blue-950/10 border border-blue-500/10">
+                    <div className="flex items-center gap-4 mb-6">
+                      <img
+                        src="https://github.com/devclub-iitd.png"
+                        alt="DevClub IITD"
+                        className="w-16 h-16 rounded-full border-2 border-blue-500"
+                      />
+                      <div>
+                        <h3 className="text-2xl font-bold mb-1">DevClub IITD</h3>
+                        <a 
+                          href="https://www.youtube.com/@DevClubIITD"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-400 hover:text-blue-300 transition"
+                        >
+                          @DevClubIITD
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div className="aspect-video w-full rounded-xl overflow-hidden bg-blue-950/20">
+                      <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube.com/embed/channel/@DevClubIITD"
+                        title="DevClub IITD YouTube Channel"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                    
+                    <div className="mt-6 text-center">
+                      <a
+                        href="https://www.youtube.com/@DevClubIITD"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 transition"
+                        className="shiny-cta inline-block"
                       >
-                        @devclub_iitd
+                        <span className="flex items-center gap-2">
+                          <Youtube className="w-5 h-5" />
+                          Subscribe on YouTube
+                        </span>
                       </a>
                     </div>
                   </div>
-                  
-                  <div className="aspect-video w-full">
-                    <iframe
-                      className="w-full h-full rounded-xl"
-                      src="https://www.instagram.com/devclub_iitd/embed"
-                      frameBorder="0"
-                      scrolling="no"
-                      allowTransparency={true}
-                    ></iframe>
+                </div>
+
+                {/* Instagram Section */}
+                <div>
+                  <div className="text-center mb-8">
+                    <h2 className="text-4xl font-bold mb-4">Follow Us</h2>
+                    <p className="text-xl text-gray-400">Stay updated with our latest activities</p>
                   </div>
                   
-                  <div className="mt-6 text-center">
-                    <a
-                      href="https://www.instagram.com/devclub_iitd/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="shiny-cta inline-block"
-                    >
-                      <span className="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-                        </svg>
-                        Follow us on Instagram
-                      </span>
-                    </a>
+                  <div className="rounded-2xl p-6 bg-blue-950/10 border border-blue-500/10">
+                    <div className="flex items-center gap-4 mb-6">
+                      <img
+                        src="https://github.com/devclub-iitd.png"
+                        alt="DevClub IITD"
+                        className="w-16 h-16 rounded-full border-2 border-blue-500"
+                      />
+                      <div>
+                        <h3 className="text-2xl font-bold mb-1">DevClub IITD</h3>
+                        <a 
+                          href="https://instagram.com/devclub_iitd"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-400 hover:text-blue-300 transition"
+                        >
+                          @devclub_iitd
+                        </a>
+                      </div>
+                    </div>
+                    
+                    <div className="aspect-square w-full rounded-xl overflow-hidden bg-blue-950/20">
+                      <iframe
+                        className="w-full h-full"
+                        src="https://www.instagram.com/devclub_iitd/embed"
+                        frameBorder="0"
+                        scrolling="no"
+                        allowTransparency={true}
+                      ></iframe>
+                    </div>
+                    
+                    <div className="mt-6 text-center">
+                      <a
+                        href="https://instagram.com/devclub_iitd"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="shiny-cta inline-block"
+                      >
+                        <span className="flex items-center gap-2">
+                          <Instagram className="w-5 h-5" />
+                          Follow on Instagram
+                        </span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -304,6 +360,7 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
         <Route path="/past-ocs" element={<PastOCs />} />
+        <Route path="/communities" element={<Communities />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

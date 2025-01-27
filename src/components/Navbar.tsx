@@ -33,6 +33,7 @@ const Navbar = () => {
           {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-300 hover:text-blue-400 transition">Home</Link>
+            <Link to="/communities" className="text-gray-300 hover:text-blue-400 transition">Communities</Link>
             <Link to="/events" className="text-gray-300 hover:text-blue-400 transition">Events</Link>
             <Link to="/projects" className="text-gray-300 hover:text-blue-400 transition">Projects</Link>
             <Link to="/team" className="text-gray-300 hover:text-blue-400 transition">Team</Link>
@@ -55,6 +56,7 @@ const Navbar = () => {
       <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-black/90 backdrop-blur-md">
           <Link to="/" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Home</Link>
+          <Link to="/communities" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Communities</Link>
           <Link to="/events" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Events</Link>
           <Link to="/projects" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Projects</Link>
           <Link to="/team" className="block px-3 py-2 text-gray-300 hover:text-blue-400">Team</Link>

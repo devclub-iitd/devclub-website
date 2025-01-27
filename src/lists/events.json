@@ -1,0 +1,92 @@
+[
+    {
+        "title": "DevClub Summer of Code",
+        "date": "June 2024",
+        "description": "5-week intensive coding program for freshers with mentorship from senior developers. Learn modern web development, collaborate on real projects, and build your portfolio.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop",
+        "location": "Virtual & IIT Delhi",
+        "participants": "150+",
+        "registrationLink": "https://summerofcode.devclub.in",
+        "category": "Program"
+    },
+    {
+        "title": "Winter DSoC",
+        "date": "January 2024",
+        "description": "A revival of DSoC for freshers, this time with a leaderboard.",
+        "image": "/events/dsoc.jpg",
+        "location": "IIT Delhi",
+        "participants": "300+",
+        "registrationLink": "https://hackathon.devclub.in",
+        "category": "Hackathon"
+    },
+    {
+        "title": "Pathway LLM bootcamp",
+        "date": "August 2024",
+        "description": "Session hosted by DevClub IIT Delhi in collaboration with Pathway and Athina AI. Advanced strategies for building and managing production-ready LLM stacks, focusing on cutting-edge Retrieval-Augmented Generation (RAG) pipelines.",
+        "image": "/events/llm.jpg",
+        "location": "LHC, IIT Delhi",
+        "participants": "100+",
+        "registrationLink": "https://workshops.devclub.in",
+        "category": "Workshop"
+    },
+    {
+        "title": "AWS Community Day",
+        "date": "September 21, 2024",
+        "description": "200+ attendees met for AWS Delhi NCR User Group Community Day for fun networking and AWS workshops.",
+        "image": "/events/aws.jpg",
+        "location": "IIT Delhi",
+        "participants": "200+",
+        "registrationLink": "https://devclub.in/aws-community-day",
+        "category": "Workshop"
+    },
+    {
+        "title": "Hostel Level Workshops",
+        "date": "February 2024",
+        "description": "13 workshops, one for each hostel for a first introduction to development.",
+        "image": "/events/ws.jpg",
+        "location": "All IIT Delhi Hostels",
+        "participants": "500+",
+        "registrationLink": "https://devclub.in/hostel-workshops",
+        "category": "Workshop"
+    },
+    {
+        "title": "Speedathon",
+        "date": "March 31, 2024",
+        "description": "A one of a kind superfast hackathon where you race against time to build as fast as possible using any and all available tools.",
+        "image": "/events/speedathon.jpg",
+        "location": "IIT Delhi",
+        "participants": "200+",
+        "registrationLink": "https://devclub.in/speedathon",
+        "category": "Hackathon"
+    },
+    {
+        "title": "Dev Discussion Series",
+        "date": "April 2024",
+        "description": "Discussions on building stuff at hostel cluster level.",
+        "image": "/events/dev-discussion.jpg",
+        "location": "Hostel Clusters, IIT Delhi",
+        "participants": "N/A",
+        "registrationLink": "https://devclub.in/dev-discussion-series",
+        "category": "Talk"
+    },
+    {
+        "title": "CRAC CTF",
+        "date": "September 2, 2024",
+        "description": "Hands-on workshop on penetration testing and OWASP Top 10 followed by a hackathon.",
+        "image": "/events/crac-ctf.jpg",
+        "location": "IIT Delhi",
+        "participants": "150+",
+        "registrationLink": "https://devclub.in/crac-ctf",
+        "category": "Workshop"
+    },
+    {
+        "title": "Internship Preparation Series",
+        "date": "May 2024",
+        "description": "Internship preparation series in collaboration with ANCC, MathSoc and OCS.",
+        "image": "/events/intern.jpg",
+        "location": "IIT Delhi",
+        "participants": "300+",
+        "registrationLink": "https://devclub.in/internship-preparation",
+        "category": "Workshop"
+    }
+]

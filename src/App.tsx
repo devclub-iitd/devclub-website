@@ -10,7 +10,8 @@ import Projects from './pages/Projects';
 import Events from './pages/Events';
 import Team from './pages/Team';
 import NotFound from './pages/NotFound';
-
+import Communities from './pages/Communities';  // Add this import
+import PastOCs from './pages/PastOCs';  // Add this import
 
 const projects = [
   {
@@ -263,6 +264,51 @@ function App() {
               </div>
             </section>
 
+            {/* YouTube Channel Section */}
+            <section className="py-20 px-4 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent">
+              <div className="max-w-7xl mx-auto">
+                <div className="text-center mb-16">
+                  <h2 className="text-4xl font-bold mb-4">Latest on YouTube</h2>
+                  <p className="text-xl text-gray-400">Learn and grow with our tech tutorials and event recordings</p>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                  {/* Featured Video Embed */}
+                  <div className="aspect-video w-full">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/B9m-Zky5r5Q?si=BpK2MhiBeJnL79ko"
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerPolicy="strict-origin-when-cross-origin"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                  
+                  {/* Channel Info */}
+                  <div className="flex flex-col justify-center p-6 backdrop-blur-sm bg-blue-950/10 rounded-xl border border-blue-500/10">
+                    <h3 className="text-2xl font-bold mb-4">DevClub IITD</h3>
+                    <p className="text-gray-400 mb-6">
+                      Subscribe to our channel for tech tutorials, event recordings, and learning resources.
+                    </p>
+                    <a
+                      href="https://www.youtube.com/@DevClubIITD"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-full text-white w-fit"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                      </svg>
+                      Subscribe Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
             {/* CTA Section */}
             <section className="py-20 px-4 bg-gradient-to-b via-blue-950/20">
               <div className="max-w-4xl mx-auto text-center backdrop-blur-sm rounded-2xl p-8">
@@ -287,6 +333,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/events" element={<Events />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/communities" element={<Communities />} />
+        <Route path="/past-ocs" element={<PastOCs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

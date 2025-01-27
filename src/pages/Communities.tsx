@@ -5,34 +5,34 @@ import Background from '../components/Background';
 import { Youtube, Users, BookOpen, Brain, ExternalLink } from 'lucide-react';
 
 const communities = [
-  {
-    title: "Spark Bootcamp",
-    description: "The complete tutorial series covering development concepts from fullstack web to cybersecurity to ML and AI. Open for all IITD students to attend in person and available on YouTube for everyone else.",
-    image: "/communities/spark.jpg", // Placeholder
-    category: "Learning Series",
-    tags: ["Web Dev", "Cybersec", "ML/AI", "Tutorial"],
-    link: "https://www.youtube.com/@DevClubIITD",
-    active: true,
-    featured: true
-  },
-  {
-    title: "Women in Tech Series",
-    description: "In collaboration with AWS, this initiative brings women in tech to deliver technical lectures and tutorials on relevant topics, fostering diversity and knowledge sharing in the tech community.",
-    image: "/communities/wit.jpg", // Placeholder
-    category: "Technical Series",
-    tags: ["AWS", "Women in Tech", "Industry"],
-    active: true,
-    featured: true
-  },
-  {
-    title: "Agentic AI Community",
-    description: "An upcoming community focused on teaching and building with AI agents. Join us to explore the cutting-edge world of autonomous AI systems and their applications.",
-    image: "/communities/ai.jpg", // Placeholder
-    category: "AI Community",
-    tags: ["AI", "Agents", "LLMs", "Upcoming"],
-    active: false,
-    featured: true
-  }
+    {
+        title: "Spark Bootcamp",
+        description: "The complete tutorial series covering development concepts from fullstack web to cybersecurity to ML and AI. Open for all IITD students to attend in person and available on YouTube for everyone else.",
+        image: "/events/spark.png",
+        category: "Learning Series",
+        tags: ["Web Dev", "Cybersec", "ML/AI", "Tutorial"],
+        link: "https://www.youtube.com/@DevClubIITD",
+        active: true,
+        featured: true
+    },
+    {
+        title: "Women in Tech Series",
+        description: "In collaboration with AWS, this initiative brings women in tech to deliver technical lectures and tutorials on relevant topics, fostering diversity and knowledge sharing in the tech community.",
+        image: "/events/womenintech.png",
+        category: "Technical Series",
+        tags: ["AWS", "Women in Tech", "Industry"],
+        active: true,
+        featured: true
+    },
+    {
+        title: "Agentic AI Community",
+        description: "An upcoming community focused on teaching and building with AI agents. Join us to explore the cutting-edge world of autonomous AI systems and their applications.",
+        image: "/communities/ai.jpg", // Placeholder
+        category: "AI Community",
+        tags: ["AI", "Agents", "LLMs", "Upcoming"],
+        active: false,
+        featured: true
+    }
 ];
 
 export default function Communities() {

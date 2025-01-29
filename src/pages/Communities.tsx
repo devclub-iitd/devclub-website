@@ -85,7 +85,7 @@ export default function Communities() {
             <div className="aspect-video rounded-xl overflow-hidden bg-blue-950/20">
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/videoseries?list=YOUR_PLAYLIST_ID"
+                src="https://www.youtube.com/embed/videoseries?list=PLxd0TIVvJUL8G4Ytx2qybu-R3ZX_V4XBh"
                 title="DevClub IITD YouTube Channel"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

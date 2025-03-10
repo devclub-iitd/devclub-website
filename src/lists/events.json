@@ -1,4 +1,14 @@
 [
+{
+    "title": "AI Square Speedathon 2025",
+    "date": "March 11, 2025",
+    "description": "Speed is your weapon, AI is your ally—can you outpace the rest in this Dev Contest?",
+    "image": "/events/ai-speedathon.jpg",
+    "location": "IIT Delhi",
+    "participants": "100+",
+    "registrationLink": "https://cringebut.fun",
+    "category": "Competition"
+},
     {
         "title": "DevClub Summer of Code",
         "date": "June 1, 2024",

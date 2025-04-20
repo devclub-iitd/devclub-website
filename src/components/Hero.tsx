@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex items-center gap-2 px-6 py-2.5 rounded-full backdrop-blur-md bg-blue-500/10 border border-blue-400/20 shadow-lg shadow-blue-500/5">
           <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
           <span className="text-blue-100 font-medium">DevClub's Executive Team Recruitment is Live!</span>
-          <Link to="/recruitment-2025" className="text-xs font-semibold text-blue-300 hover:text-blue-200 ml-2 transition-colors">
+          <Link to="https://forms.gle/SShzsxRa3EPSrUdw8" className="text-xs font-semibold text-blue-300 hover:text-blue-200 ml-2 transition-colors">
             Apply Now →
           </Link>
         </div>

@@ -11,10 +11,11 @@ const Hero = () => {
           <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
           <span className="text-blue-100 font-medium">DevClub's Executive Team Recruitment is Live!</span>
           <Link to="/recruitment-2025" className="text-xs font-semibold text-blue-300 hover:text-blue-200 ml-2 transition-colors">
-            Apply Now →
+        Apply Now →
           </Link>
         </div>
       </div>
+      <div className="h-[200px]" />
       
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,123,255,0.1),rgba(0,0,0,0.3))]"></div>

@@ -5,6 +5,17 @@ import '../components/supercoolbutton.css';
 const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-black via-blue-950/20 to-black/50 pt-40">
+      {/* Notification Banner */}
+      <div className="absolute top-24 z-20">
+        <div className="flex items-center gap-2 px-6 py-2.5 rounded-full backdrop-blur-md bg-blue-500/10 border border-blue-400/20 shadow-lg shadow-blue-500/5">
+          <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
+          <span className="text-blue-100 font-medium">DevClub's Executive Team Recruitment is Live!</span>
+          <Link to="/recruitment-2025" className="text-xs font-semibold text-blue-300 hover:text-blue-200 ml-2 transition-colors">
+            Apply Now →
+          </Link>
+        </div>
+      </div>
+      
       <div className="absolute inset-0 w-full h-full">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,123,255,0.1),rgba(0,0,0,0.3))]"></div>
       </div>

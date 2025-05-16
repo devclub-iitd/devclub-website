@@ -8,12 +8,28 @@
         "image": "/pastocs/aman.jpg"
     },
     {
+        "name": "Suyash Agrawal",
+        "role": "Co-Overall Coordinator",
+        "year": "2018",
+        "batch": "(2015-2019)",
+        "linkedin": "https://www.linkedin.com/in/suyash1012/",
+        "image": "/pastocs/suyash.png"
+    },
+    {
         "name": "Shashwat Shivam",
         "role": "Overall Coordinator",
         "year": "2019",
         "batch": "(2016-2020)",
         "linkedin": "https://www.linkedin.com/in/ankurshaswat/",
         "image": "/pastocs/shashwat.jpg"
+    },
+    {
+        "name": "Atishya Jain",
+        "role": "Co Overall Coordinator",
+        "year": "2019",
+        "batch": "(2016-2021)",
+        "linkedin": "https://www.linkedin.com/in/atishya-jain/",
+        "image": "/pastocs/atishya.png"
     },
     {
         "name": "Shourya Aggarwal",
@@ -54,5 +70,14 @@
         "batch": "(2021-2025)",
         "linkedin": "https://www.linkedin.com/in/ashish-ar/",
         "image": "/pastocs/ashish.jpg"
+    }
+,
+    {
+        "name": "Arush Bansal",
+        "role": "Head of Products",
+        "year": "2024",
+        "batch": "(2021-2025)",
+        "linkedin": "https://www.linkedin.com/in/arush-bansal/",
+        "image": "/pastocs/arush.jpg"
     }
 ]

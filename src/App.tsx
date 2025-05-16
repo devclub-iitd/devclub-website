@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,43 +11,10 @@ import Team from './pages/Team';
 import NotFound from './pages/NotFound';
 import Communities from './pages/Communities';  // Add this import
 import PastOCs from './pages/PastOCs';  // Add this import
-
-const projects = [
-  {
-    title: "IITDConnect",
-    description: "Backend server for the campus social networking platform that connects IIT Delhi students",
-    image: "/projects/connect.png",
-    tech: ["MongoDB", "Express", "Node.js"],
-    github: "https://github.com/devclub-iitd/IITDConnectServer",
-    visit: "https://campus.devclub.in/home"
-  },
-  {
-    title: "Yearbook",
-    description: "Digital yearbook platform for final year students to share memories and get them signed by batchmates",
-    image: "/projects/yearbook.jpg",
-    tech: ["React", "Django", "PostgreSQL"],
-    github: "https://github.com/devclub-iitd/Yearbook",
-    visit: "https://yearbook.devclub.in/"
-  },
-  {
-    title: "ClassGrid",
-    description: "Automatic timetable manager",
-    image: "/projects/classgrid.png",
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/devclub-iitd/ClassGrid",
-    visit: "https://classgrid.devclub.in/"
-  },
-  {
-    title: "Study Portal",
-    description: "Citadel, the previous year papers and texts centre",
-    image: "/projects/citadel.png",
-    tech: ["React", "Express", "MongoDB"],
-    github: "https://github.com/devclub-iitd/StudyPortal",
-    visit: "https://study.devclub.in/books/"
-  }
-];
-
 import eventsData from './lists/events.json';
+import Notification from './components/Notification';
+import projects from './lists/projects.json';
+
 
 const events = [...eventsData]
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -62,6 +28,7 @@ function App() {
           <div className="min-h-screen bg-black text-white">
             <Background />
             <Navbar />
+            {/* <Notification /> */}
             <Hero />
             
             {/* Events Preview - Moved up */}

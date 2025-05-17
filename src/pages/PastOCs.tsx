@@ -63,7 +63,7 @@ export default function PastOCs() {
                   (() => {
                     const oc = ocsInYear[0];
                     return (
-                      <div key={oc.linkedin} className="flex flex-col md:flex-row gap-8 items-center justify-center ml-[22%]">
+                      <div key={oc.linkedin} className="flex flex-col md:flex-row gap-8 items-center justify-center md:ml-[22%]">
                         <div className="w-48 h-48 relative group flex-shrink-0">
                           <img 
                             src={oc.image}
